@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Customer c1 = new Customer("John Doe", 123456789, ProblemArea.Internet);
-            Customer c2 = new Customer("Jane Smith", 987654321, ProblemArea.Cable);
-            Customer c3 = new Customer("Bob McGee", 135792468, ProblemArea.Other);
-            Customer c4 = new Customer("Stephanie Diaz", 246813579, ProblemArea.Phone);
+            Customer c1 = new Customer("John Doe", 1234567890, ProblemArea.Internet);
+            Customer c2 = new Customer("Jane Smith", 9876543210, ProblemArea.Cable);
+            Customer c3 = new Customer("Bob McGee", 1357924680, ProblemArea.Other);
+            Customer c4 = new Customer("Stephanie Diaz", 2468135790, ProblemArea.Phone);
 
             Queue queue = new Queue();
             queue.Enqueue(c1);

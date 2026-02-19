@@ -14,10 +14,10 @@ namespace Assignment_6._3
     internal class Customer
     {
         public string Name { get; set; }
-        public int PhoneNumber { get; set; }
+        public long PhoneNumber { get; set; }
         public ProblemArea Issue { get; set; }
 
-        public Customer(string name, int number, ProblemArea issue)
+        public Customer(string name, long number, ProblemArea issue)
         {
             Name = name;
             PhoneNumber = number;
